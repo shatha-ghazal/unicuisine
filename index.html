@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head style="background-color:rgba(186, 130, 130, 0.817) ;" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicusine Retail</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS (if needed) */
+        .custom-shadow {
+            box-shadow: 0px 4px 6px rgba(186, 130, 130, 0.817);
+        }
+
+
+        #image-1 img,
+#image-2 img,
+#image-3 img {
+  background-color: #00f;
+  vertical-align: top;
+}
+.image-1,
+.image-2,
+image-3 {
+  display: block;
+}
+.Wrapper {
+  vertical-align: middle;
+  display: block;
+}
+
+.paddingBetweenCols td {
+  padding: 0 200px;
+}
+tr.paddingBetweenCols {
+  border-spacing: 50em;
+}
+
+table {
+  border-collapse: separate; /* Required for border-spacing to work */
+  border-spacing: 15px; /* Adds 10px space horizontally and vertically */
+  
+}
+.table1 td {
+  border-bottom: 1px solid black; /* Creates the horizontal line */
+  padding: 8px; /* Adds space for readability */
+  border-style: dashed;
+  
+}
+
+.table3 
+{
+
+padding: 70px;
+border-spacing: 30px;
+
+}
+
+/*<meta name="viewport" content="width=device-width, initial-scale=1.0">*/
+
+@media screen and (max-width: 768px) {
+        /* Styles for screens up to 768px wide */
+        body {
+            font-size: 16px;
+            vertical-align: middle 
+            
+        }
+        .container {
+            flex-direction: column;
+        }
+    }
+    .font-sans bg-gray-100{
+    flex-direction: column;
+           
+            display : flex ;
+            height : auto ;
+            align-items : center ;
+            vertical-align: middle
+    }
+    .bg-blue-100 py-12{
+        flex-direction: column;
+           
+           display : flex ;
+           height : auto ;
+           align-items : center ;
+
+    }
+/*     display: block; 
+  margin: 0 auto; */
+
+  html, body {
+  overflow-x: hidden;
+}
+
+
+/*.scroller{
+   overflow-x: scroll; 
+    overflow-y:hidden; 
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+*/
+@media screen and (min-width: 350px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  .body{
+    font-size: 12px ;
+    width:10%;
+    
+  }
+
+  .text-4xl font-bold text-gray-800 mb-4{
+    font-size: 14px ;
+    
+
+  }
+  @media screen and (min-width: 100px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  .body{
+    font-size: 10px ;
+    width:5%;
+    width:70px;
+    
+  }
+
+  .text-4xl font-bold text-gray-800 mb-4{
+    font-size: 10px ;
+    
+
+  }
+}
+
+  /*.scroller {
+    max-width:350px ;
+    max-height:400px;
+    
+  }*/
+  /*.table1{
+  overflow-x: auto; 
+}*/
+
+/*table {
+  width: 100%; 
+  border-collapse: collapse;
+
+
+/*th, td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}*/
+
+  /*.table1{
+display: flex ;
+flex-direction: column;
+
+  }*/
+
+
+  table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border: 0px solid #ddd;
+  text-align: left;
+}
+
+
+@media screen and (max-width: 450px) {
+    body {
+        display : flex;
+        width :fit-content;
+        background-color: blue;
+        
+    }
+    .table1{
+       
+        width:275px;
+        margin-left :1000px;
+    }
+    
+    
+    .container{
+      
+
+        
+        display :flex; 
+       align-items:center;
+       gap:3px;
+       margin: 500px 30 30;
+        
+    }
+    
+}
+    
+
+
+
+
+/* Styles for screens smaller than a certain breakpoint (e.g., 600px) */
+@media screen and (max-width: 300px) {
+  table, thead, tbody, th, td, tr {
+    display: block; /* Makes table elements behave like block-level elements */
+  }
+
+  thead tr {
+    position: absolute; /* Hides the original table header visually */
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%; /* Creates space for the "data-heading" */
+  }
+
+  td:before {
+    position: absolute;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    /* Use data-heading attribute to display the header for each cell */
+    content: attr(data-heading);
+    font-weight: bold;
+  }
+  body {
+    font-size: 10px;
+    width:35%;
+  }
+}
+
+}
+
+
+/*@media screen and (min-width: 321px) and (max-width: 480px) {
+  
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 481px) {
+  
+  .body {
+    width: 480px ;
+    font-size: 12px;
+  }
+}
+*/  @media only screen and (min-width: 400px) {
+    body {
+            font-size: 12px;
+        }
+
+        /*.cont {
+            width: 350px; 
+            margin: 0 auto; 
+        }*/
+        table1{
+
+            width:200px;
+            height :200px;
+            flex-direction: column;
+        }
+    }
+
+@media screen and (max-width: 300px) {
+      body {
+        font-size: 14px; /* Smaller font size for mobile */
+        margin: 10px;    /* Reduced margin */
+      }
+    }
+
+/*.scroller {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.scroller::-webkit-scrollbar {
+    display: none;
+}*/
+/*.scroller {
+    overflow-x: scroll; 
+}
+.scroller-container::-webkit-scrollbar {
+  display: none; 
+}  */
+
+/*@media screen and (width >= 80rem) {
+  .body {
+    margin: 1em 2em;
+  }
+}*/
+
+
+    </style>
+
+
+</head>
+<body class="font-sans bg-gray-100" style="background-color:rgba(186, 130, 130, 0.817) ">
+
+
+    <div class="p">
+    <!-- Header -->
+    <header class="bg-white shadow-md py-4" style="background-color:rgba(186, 130, 130, 0.817) ; display: flex;
+    align-items: center;
+    justify-content: center">
+        <div class="container mx-auto px-4 flex items-center justify-between" style="background-color:rgba(186, 130, 130, 0.817) ;" >
+            <!-- Logo -->
+            <a href="#" class="text-2xl font-bold text-gray-800">Unicuisine</a>
+
+            <!-- Navigation -->
+            <nav class="hidden md:flex space-x-6" style="margin-left:-200px;">
+                <a href="#" class="text-gray-600 hover:text-gray-800">Home</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">Menu</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">About</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">Contact</a>
+            </nav>
+
+            <!-- Search and Cart -->
+            <div class="flex items-center space-x-4" style="background-color :rgba(186, 130, 130, 0.817)">
+                <!--<input type="text" placeholder="Search..." class="border border-gray-300 rounded-md px-3 py-2 hidden md:block">-->
+                <!--<a href="#" class="text-gray-600 hover:text-gray-800">-->
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2.3a.9.9 0 00.1.3.6.6 0 01.1.1l.3.3h13.1l-.2 1.4a.5.5 0 000 .1H5.2L4.3 6H3l.2-1.2H3z"></path></svg>
+                </a>
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-2 px-4">
+            <a href="#" class="block py-1 text-gray-600 hover:text-gray-800">Home</a>
+            <a href="#" class="block py-1 text-gray-600 hover:text-gray-800">Menu</a>
+            <a href="#" class="block py-1 text-gray-600 hover:text-gray-800">About</a>
+            <a href="#" class="block py-1 text-gray-600 hover:text-gray-800">Contact</a>
+        </div>
+        <br>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-100 py-12 "style="background-color:rgba(186, 130, 130, 0.817); display: flex;
+    align-items: center;
+    justify-content: center">
+        <div class="container mx-auto px-4" style="background-color:rgba(186, 130, 130, 0.817)">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4 "style=" font-size:45px ;display: flex;
+            align-items: center;
+            justify-content: center ; background-color:rgba(186, 130, 130, 0.817)">Delicious Meal Dishes</h1>
+            <p class="text-lg text-gray-600"style="background-color:rgba(186, 130, 130, 0.817)"></p>
+            <!--<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">Shop Now</button>-->
+        </div>
+    </section>
+
+
+    
+
+
+      <section class="scroller1" >
+    <!-- Product Listing Section -->
+    <section class="scroller" style="background-color:rgba(186, 130, 130, 0.817) ; margin-left:20px ;">
+        <div class="container" style="background-color:rgba(186, 130, 130, 0.817)">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4"></h2>
+            <div class="flex items-center gap-4" style="background-color:rgba(186, 130, 130, 0.817)">
+
+                <!-- Product Card -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden"style="background-color:rgba(186, 130, 130, 0.817); width:450px;height:330px" >
+                    <img  src="pasta.jpg" alt="" class="w-full h-48 object-cover" style ="width:295px;height:295px">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800"></h3>
+                        <p class="text-gray-600"></p>
+                        <!--<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2">Add to Cart</button>-->
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden"style="background-color:rgba(186, 130, 130, 0.817);width:300px;height:150px">
+                    <img src="Pizza.jpg" alt="" class="w-full h-48 object-cover"style="width:295px;height:295px">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800"></h3>
+                        <p class="text-gray-600"></p>
+                        <!--<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2">Add to Cart</button>-->
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden"style="background-color:rgba(186, 130, 130, 0.817);width:450px;height:330px">
+                    <img src="g-rolls.jpg" alt="" class="w-full h-48 object-cover" style="width:295px;height:295px">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800"></h3>
+                        <p class="text-gray-600"></p>
+                        <!--<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2">Add to Cart</button>-->
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden" style="background-color:rgba(186, 130, 130, 0.817);width:300px;height:150px">
+                    <img src="chinese-5.jpg" alt="" class="w-full h-48 object-cover" style="width:295px;height:295px">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800"></h3>
+                        <p class="text-gray-600"></p>
+                        <!--<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2">Add to Cart</button>-->
+                    </div>
+                    
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden" style="background-color:rgba(186, 130, 130, 0.817);width:450px;height:330px">
+                  <img src="chicken-3.jpg" alt="" class="w-full h-48 object-cover" style="width:295px;height:295px">
+                  <div class="p-4">
+                      <h3 class="text-lg font-semibold text-gray-800"></h3>
+                      <p class="text-gray-600"></p>
+                      <!--<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2">Add to Cart</button>-->
+                  </div>
+                  
+              </div>
+                <!-- More product cards here -->
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+       
+        <p style="color:purple">...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</p>
+    </section
+    </section>
+
+
+
+
+<section class= "cont" style="background-color: rgba(186, 130, 130, 0.817)">
+    <p style="background-color: rgba(186, 130, 130, 0.817); font-weight:bold ; font-size:45px ; display: flex;
+    align-items: center;
+    justify-content: center">Breakfast Special Menu</p>
+
+
+<br>
+<br>
+<br>
+
+    <table class="table1"    style=" background-color: rgba(186, 130, 130, 0.817); display: flex;
+    align-items: center;
+    justify-content: center">
+        <tr style=''>
+         <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+        chicken  beef  </p>  </div></b></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+         <td style="font-weight:lighter"><b>120$</b></td>
+         <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+            chicken  beef  </p>  </div></b></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td style="font-weight:lighter"><b>64$</b></td>
+        </tr>
+        <tr style=''>
+            <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                chicken  beef  </p>  </div></b></td>
+   
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="font-weight:lighter"><b>54$</b></td>
+            <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                chicken  beef  </p>  </div></b></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="font-weight:lighter"><b>69$</b></td>
+           </tr>
+           <tr style=''>
+            <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                chicken  beef  </p>  </div></b></td>
+   
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="font-weight:lighter"><b>78$</b></td>
+            <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                chicken  beef  </p>  </div></b></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="font-weight:lighter"<b>82$</b></td>
+           </tr>
+               <tr style="border-spacing:1px">
+                  </tr>
+                   <tr>
+                    <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                        chicken  beef  </p>  </div></b></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td style="font-weight:lighter"><b>58$</b></td>
+                   <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                    chicken  beef  </p>  </div></b></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td style="font-weight:lighter"><b>42$</b></td>
+                   
+                  </tr>
+                  <tr></tr>
+                  <tr></tr>
+            
+           </tr>
+       </table>
+       
+       <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2"style="background-color:green;margin-left: 1200px ;   display: block; /* Makes the button a block-level element */
+  margin: 0 auto;">book a table</button>
+    
+<br>
+<br>
+<br>
+<br>
+       <section style="background-color: rgba(186, 130, 130, 0.817)">
+        <p style="background-color: rgba(186, 130, 130, 0.817); font-weight:bold ; font-size:45px ; display: flex;
+        align-items: center;
+        justify-content: center"> Lunch Special Menu</p>
+    
+    
+    <br>
+    
+    
+        <table class="table1"   style=" background-color: rgba(186, 130, 130, 0.817); display: flex;
+        align-items: center;
+        justify-content: center">
+            <tr style=''>
+                <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                    chicken  beef  </p>  </div></b></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+             <td style="font-weight:lighter"><b>123$</b></td>
+             <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                chicken  beef  </p>  </div></b></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td style="font-weight:lighter"><b>86$</b></td>
+            </tr>
+            <tr style=''>
+                <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                    chicken  beef  </p>  </div></b></td>
+       
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="font-weight:lighter"><b>127$</b></td>
+                <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                    chicken  beef  </p>  </div></b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="font-weight:lighter"><b>58$</b></td>
+               </tr>
+               <tr style=''>
+                <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                    chicken  beef  </p>  </div></b></td>
+       
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="font-weight:lighter"><b>159$</b></td>
+                <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                    chicken  beef  </p>  </div></b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="font-weight:lighter"<b>46$</b></td>
+               </tr>
+                   <tr style="border-spacing:1px">
+                      </tr>
+                       <tr>
+                        <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                            chicken  beef  </p>  </div></b></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td style="font-weight:lighter"><b>147$</b></td>
+                       <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                        chicken  beef  </p>  </div></b></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td style="font-weight:lighter"><b>35$</b></td>
+                       
+                      </tr>
+                      <tr></tr>
+                      <tr></tr>
+                
+               </tr>
+           </table>
+           
+           <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2"style="background-color:green;margin-left:1200px ;   display: block; 
+  margin: 0 auto;">book a table</button>
+        
+    
+
+<br>
+<br>
+<br>
+
+
+           <section style="background-color: rgba(186, 130, 130, 0.817)">
+            <p style="background-color: rgba(186, 130, 130, 0.817); font-weight:bold ; font-size:45px; display: flex;
+            align-items: center;
+            justify-content: center"> Dinner Special Menu</p>
+        
+        
+        <br>
+        
+        
+            <table class="table1"   style=" background-color: rgba(186, 130, 130, 0.817); display: flex;
+            align-items: center;
+            justify-content: center">
+                <tr style=''>
+                    <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                        chicken  beef  </p>  </div></b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                 <td style="font-weight:lighter"><b>120$</b></td>
+                 <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                    chicken  beef  </p>  </div></b></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td style="font-weight:lighter"><b>196$</b></td>
+                </tr>
+                <tr style=''>
+                    <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                        chicken  beef  </p>  </div></b></td>
+           
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="font-weight:lighter"><b>125$</b></td>
+                    <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                        chicken  beef  </p>  </div></b></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="font-weight:lighter"><b>158$</b></td>
+                   </tr>
+                   <tr style=''>
+                    <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                        chicken  beef  </p>  </div></b></td>
+           
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="font-weight:lighter"><b>184$</b></td>
+                    <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                        chicken  beef  </p>  </div></b></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="font-weight:lighter"<b>115$</b></td>
+                   </tr>
+                       <tr style="border-spacing:1px">
+                          </tr>
+                           <tr>
+                            <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                                chicken  beef  </p>  </div></b></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td style="font-weight:lighter"><b>187$</b></td>
+                           <td style="font-weight:lighter"><div><b><img style="height:59px; width:59px ; float :left" src="Pizza1.jpg"></img>&nbsp<p style="float :right">Crispy chicken poblano</b> <br>
+                            chicken  beef  </p>  </div></b></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td style="font-weight:lighter"><b>100$</b></td>
+                           
+                          </tr>
+                          <tr></tr>
+                          <tr></tr>
+                    
+                   </tr>
+               </table>
+               <!--this -->
+               <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2"style="background-color:green;  display: block; 
+  margin: 0 auto;">book a table</button>
+            
+          
+
+<br>
+<br>
+<br>
+
+<section class="bg-blue-100 py-12 "style="background-color:rgba(186, 130, 130, 0.817)">
+    <div class="container mx-auto px-4">
+        <h1 class="text-4xl font-bold text-gray-800 mb-4 "style=" font-size:45px;display: flex;
+        align-items: center;
+        justify-content: center">Our culture</h1>
+        <p class="text-lg text-gray-600"></p>
+        <!--<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">Shop Now</button>-->
+    </div>
+</section>
+
+
+
+
+<!-- Product Listing Section -->
+<section class="py" style="background-color:rgba(186, 130, 130, 0.817);margin-left: 100px;">
+    <div class="container mx-auto px-4" style="background-color:rgba(186, 130, 130, 0.817)">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4"></h2>
+        <div class="flex items-center gap-4">
+
+            <!-- Product Card -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden"style="background-color:rgba(186, 130, 130, 0.817); width:450px;height:330px" >
+                <img src="pasta.jpg" alt="" class="w-full h-48 object-cover" style ="width:290px;height:330px">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800"></h3>
+                    <p class="text-gray-600"></p>
+                    <!--<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2">Add to Cart</button>-->
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden"style="background-color:rgba(186, 130, 130, 0.817);width:300px;height:150px">
+                <img src="Pizza.jpg" alt="" class="w-full h-48 object-cover"style="width:150px;height:150px">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800"></h3>
+                    <p class="text-gray-600"></p>
+                    <!--<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2">Add to Cart</button>-->
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden"style="background-color:rgba(186, 130, 130, 0.817);width:450px;height:330px">
+                <img src="g-rolls.jpg" alt="" class="w-full h-48 object-cover" style="width:290px;height:330px">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800"></h3>
+                    <p class="text-gray-600"></p>
+                    <!--<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2">Add to Cart</button>-->
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden" style="background-color:rgba(186, 130, 130, 0.817);width:300px;height:150px">
+                <img src="chinese-5.jpg" alt="" class="w-full h-48 object-cover" style="width:150px;height:150px">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800"></h3>
+                    <p class="text-gray-600"></p>
+                    <!--<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2">Add to Cart</button>-->
+                </div>
+                
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden" style="background-color:rgba(186, 130, 130, 0.817);width:450px;height:330px">
+              <img src="chicken-3.jpg" alt="" class="w-full h-48 object-cover" style="width:300px;height:330px">
+              <div class="p-4">
+                  <h3 class="text-lg font-semibold text-gray-800"></h3>
+                  <p class="text-gray-600"></p>
+                  <!--<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2">Add to Cart</button>-->
+              </div>
+              
+          </div>
+            <!-- More product cards here -->
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            
+        </div>
+
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+   
+    <!-- Footer -->
+
+<section style="background-color: rgba(240, 240, 74, 0.868); height:399px;  display: block;
+  margin: 0 auto;" >
+    <div >
+    
+   <img src="photo.jpg" style=" height:350px; width:500px;float:right ;margin-right:100px ;margin-top :30px  "></img>
+        
+   <pre><pre> <p style="margin-left:355px ;position: absolute;text-align:left  ;margin:0 auto
+        ">
+   I love unicuisine because it allows me to show my<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;daughters how to reduce our enviromental<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;footprits .I love getting them involved in selecting <br>
+  &nbsp;&nbsp;&nbsp;&nbsp; our products so that they can see how we can reduce<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;waste  every order is a source of pride and <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;the savings are extra ordinary.
+
+
+<div>
+
+
+    </p>
+
+
+
+
+</section>
+
+</div>
+    <footer class="bg-gray-800 text-white py-8" style="background-color:rgba(186, 130, 130, 0.817) ; text-align:left ; margin:0 auto">
+        
+        
+        <table class="table3 "style=" margin-left:57px; margin-top:-100px ; float:top ;text-align:left ; margin:0 auto ; border=none" >
+            <tr style=''>
+             <td><b>Contact</b></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+             <td><b>Navigate</b></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td>Menu </td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>   <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             
+            
+             <td><b>follow us</b></td>
+            </tr>
+    
+            <tr style=''>
+                <td><b>602-774-4735</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+                <td><b>home</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td>breakfast</td>
+             <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td>facebook</td>
+               </tr>
+              
+               <tr style=''>
+                <td><b>11022 south51st street suite 105</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+                <td><b>menu</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td>lunch</td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+         
+          <td>instagram</td>
+
+               </tr>
+
+
+
+               <tr style=''>
+                <td><b>email</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+                <td><b>about</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td>dinner</td>
+
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>linkedin</td>             
+               </tr>
+                 
+               <tr style=''>
+                <td><b></b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+                <td><b>contact</b></td>
+                <td><b></b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td><b></b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td>twitter</td>
+                <tr style=''>
+                    <td><b></b></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                    <td><b>book now</b></td>
+
+           </table>
+        
+        
+        
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Unicusine. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
